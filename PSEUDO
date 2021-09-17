@@ -2,4 +2,13 @@
 #CS30
 #09/16/21
 
-Pseudocode:
+#Pseudocode
+#Character begins in an abandoned hospital 
+#Character begins with 100hp
+#Character is equipped with a flashlight with full battery (3 Bars)
+#Character is equipped with phone (3 Bars)
+#(Keep in mind overtime both the radio and flashlight will deplete in battery)
+# Character can replenish his/her battery using a charger
+#
+
+
