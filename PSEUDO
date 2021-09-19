@@ -18,9 +18,14 @@
     #Character is required to find cause behind power outage in he hospital.
   
   #OBSTACLES:
-    #Character isn't the only one in the hospital
-    #The other person in the hospital is an antagonist
-    #
+    #Character isn't the only one in the hospital.
+    #The other person is hostile.
+    
+  #ANTAGONIST INVENTORY
+    #The antagonist has 200hp
+    #The antagonist is equipped with teleportation
+    #The antagonist can disable batteries
+    #The antagonist does 25hp damage per encounter
     
 
  
