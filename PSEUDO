@@ -6,16 +6,21 @@
 # Horror themed adventure game
 
 #Pseudocode
+  
+  
+    
   #INVENTORY:
     #Character begins in an abandoned hospital. 
     #Character begins with 100hp.
     #Character is equipped with a flashlight with full battery (3 Bars).
     #Character is equipped with phone (3 Bars).
     #(Keep in mind overtime both the radio and flashlight will deplete in battery).
-    # Character can replenish his/her battery using a .charger.
+    # Character can replenish his/her battery using a charger.
+    
   
   #OBJECTIVE:
     #Character is required to find cause behind power outage in he hospital.
+      #Secondary objective: Kill the other person before they kill you.
   
   #OBSTACLES:
     #Character isn't the only one in the hospital.
@@ -25,7 +30,15 @@
     #The antagonist has 200hp
     #The antagonist is equipped with teleportation
     #The antagonist can disable batteries
-    #The antagonist does 25hp damage per encounter
+    
+    
+   #COMBAT 
+    #The main chracter(you) can do up to 30 damage per hit.
+    #The antagonist can do up to 25 daage per hit.
+    #Hits can be given or received depending on the choice of the main character.
+    #If the main character is killed the game restarts.
+    
+  
     
 
  
