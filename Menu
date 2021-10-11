@@ -1,1 +1,33 @@
+# Ibrahim Mahmud
+# CS30
+# 09/28/21
+# Menu starts, Player picks name
+import sys
 
+
+def menu():
+
+    print("Adventure game Menus")
+    Name = input("What is your name?")
+    print("Okay" + Name + " pick one. ")
+    Command = input("Dodge , Punch, Run, Quit")
+    possible_directions =["North", "South", "East", "West"]
+    # Possible choices are displayed
+    possible_commands = ["Dodge", "Punch", "Run", "Quit"]
+    """Definition of Menu"""
+    
+    if Command == "Dodge":
+        print("You Dodged")
+    elif Command == "Punch":
+        print("You Punched")
+    elif Command == "Run":
+      direction = input("choose a direction to run North, South, East, West")
+      print("your ran " + direction )
+    elif Command == "Quit":
+      print("Bye, " + Name)
+      sys.exit()
+    else:
+      print("Sorry please insert a correct input")
+
+while True:
+    menu()
