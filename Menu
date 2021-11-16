@@ -1,22 +1,58 @@
-# Ibrahim Mahmud
+                     # Ibrahim Mahmud
 # CS30
 # 09/28/21
 # Menu starts, Player picks name
 import sys
+import Inventory
+import protagonist
+import antagonist
 
+# Inventory options are displayed
+def inven():
+    print("Here's what you have, choose one to learn more.")
+    invendesc = input("INVENTORY : [Flashlight] [Batteries]")
+    if invendesc == "Flashlight":  
+        print("This item helps you see")
+    elif invendesc == "Batteries":
+        print("This item can power your electronics")
+    else:
+        print("Sorry please insert a correct input")
+
+
+
+def options():
+    print("breh")
+
+
+def back():
+    print("breh")
+
+
+# Map options are displayed
+def map():
+    floor = input("HOSPITAL: Pick a floor [1 or 2]")
+    if floor == "1":
+        print("You are now on Floor 1")
+    elif floor == "2":
+        print("You are now on Floor 2")
+    else:
+        print("Sorry please insert a correct input")
 
 def menu():
-
     print("Adventure game Menus")
-    Name = input("What is your name?")
-    print("Okay" + Name + " pick one. ")
-    Command = input("Dodge , Punch, Run, Quit")
+    Name = input("What is your name? ")
+    print("Okay " + Name + " pick one. ")
+    Command = input("Dodge , Punch, Run, Quit, Inventory, Map")
     possible_directions =["North", "South", "East", "West"]
-    # Possible choices are displayed
-    possible_commands = ["Dodge", "Punch", "Run", "Quit"]
+# Possible choices are displayed
+    possible_commands = ["Dodge", "Punch", "Run", "Quit", "Inventory", "Map"]
     """Definition of Menu"""
-    
-    if Command == "Dodge":
+    if Command =="Map":
+      map()
+
+    if Command == "Inventory":
+        inven()
+    elif Command == "Dodge":
         print("You Dodged")
     elif Command == "Punch":
         print("You Punched")
@@ -28,6 +64,8 @@ def menu():
       sys.exit()
     else:
       print("Sorry please insert a correct input")
-
+#Function to loop menu occurs while true
 while True:
     menu()
+
+
